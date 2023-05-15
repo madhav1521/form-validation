@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.div{display: flex; justify-content: space-between; margin-bottom: 130px;}
+
+.form-controls{justify-content: center;display: flex;align-items: center;}
+.form{display: flex; flex-direction: column;width: 300px; gap: 20px; height: 100px;}
+.submit-btn{width: 50%;cursor: pointer; padding: 5px; border: 1px solid transparent; border-radius: 5px; background-color: brown; color: aliceblue; font-weight: 600;}
+.input-field{padding: 5px 10px; font-size: 18px; }
+.invalid{color: red; margin-bottom: 70px; }
+.invalid p{color: red; }
+.invalid input{border-color: red; }
+
+/* multiple inputs ============== */
+.submit-btn:disabled{background-color: grey;cursor: not-allowed;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
