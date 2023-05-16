@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import useHook from './useHook';
 
 export default function MultipleInputs(props) {
     

@@ -1,4 +1,5 @@
 import './App.css';
+import CustomMultipleInputs from './Components/CustomMultipleInputs';
 import InputFieldSubmit from './Components/InputFieldSubmit';
 import InputFocusKeystroke from './Components/InputFocusKeystroke';
 import MultipleInputs from './Components/MultipleInputs';
@@ -19,6 +20,9 @@ function App() {
       </div> <hr />
       <h3>In this Form you can have validations through multiple inputs of the form</h3>
       <MultipleInputs />
+      <hr />
+      <h3>In this Form you can have validations through multiple inputs using custom hooks </h3>
+      <CustomMultipleInputs />
     </div>
   );
 }
