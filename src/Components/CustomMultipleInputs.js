@@ -28,7 +28,7 @@ export default function CustomMultipleInputs(props) {
         inputChangeHandler:ageChangeHandler,
         inputBlurHandler:ageBlurHandler,
         reset:resetAgeInput
-    } = useHook(value => value < 0 || value > 100);
+    } = useHook(value => value < 1 || value > 100);
 
     let totalForms = false;
     if (!nameIsValid && !emailIsValid && !ageIsValid) {
